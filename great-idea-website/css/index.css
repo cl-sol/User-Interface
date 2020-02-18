@@ -65,18 +65,20 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 nav {
+	display: inline-block;
 	color: slategrey;
 	text-align: center;
 	border: 1px solid black;
-	width: 1250px;
+	width: 900px;
 	height: 50px;
 }
 
 nav a {
 	display: inline-block;
 	border: 1px solid black;
-	height: 20px;
+	height: 50px;
 	width: 70px;
+	padding-top: 15px;
 	margin: 0 30px;
 	color: slategrey;
 	
@@ -85,7 +87,8 @@ nav a {
 .logo {
 	display: inline-block;
 	border: 1px solid black;
-	margin-top: 5px;
+	/* position: relative; */
+	margin-left: 900px;
 }
 
 header {
@@ -150,4 +153,49 @@ p {
 	margin-left: 200px;
 	margin-top: 25px;
 	margin-bottom: 25px;
+}
+
+.BottomSection {
+	border: 1px solid black;
+}
+
+.BottomSection-Left {
+	border: 1px solid red;
+	display: inline-block;
+	height: 150px;
+	width: 300px;
+	margin-left: 100px;
+}
+
+.BottomSection-Middle {
+	border: 1px solid red;
+	display: inline-block;
+	height: 150px;
+	width: 300px;
+	margin: 0 50px;
+}
+
+.BottomSection-Right {
+	border: 1px solid red;
+	display: inline-block;
+	height: 150px;
+	width: 300px;
+}
+
+.contact {
+	border: 1px solid red;
+	display: block;
+	width: 200px;
+	height: 150px;
+	margin-left: 100px;
+}
+
+.contact p {
+	line-height: 25px;
+}
+
+footer {
+	border: 1px solid black;
+	text-align: center;
+	margin: 50px;
 }
