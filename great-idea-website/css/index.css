@@ -90,6 +90,7 @@ nav a {
 
 header {
 	border: 1px solid black;
+	margin-top: 25px;
 	margin-bottom: 50px;
 }
 
@@ -98,9 +99,9 @@ header h1 {
 	display: inline-block;
 	height: 350px;
 	width: 450px;
-	margin-left: 125px;
-	padding: 50px;
-	font-size: 100px;
+	margin-left: 100px;
+	padding: 49px;
+	font-size: 95px;
 	text-align: center;
 }
 
@@ -108,7 +109,7 @@ header h1 {
 	border: 1px solid black;
 	display: inline-block;
 	margin-top: 10px;
-	margin-left: 50px;
+	margin-left: 100px;
 }
 
 button {
@@ -116,6 +117,37 @@ button {
 	display: block;
 	height: 25px;
 	width: 200px;
-	margin: 10px 75px;
+	margin: 0 75px;
 }
 
+p {
+	display: inline-block;
+	text-align: left;
+}
+
+.TopSection {
+	display: block;
+	border: 1px solid black;
+}
+
+.topsection-left {
+	border: 1px solid red;
+	display: inline-block;
+	height: 100px;
+	width: 450px;
+	margin-left: 100px;
+}
+
+.topsection-right {
+	border: 1px solid red;
+	display: inline-block;
+	height: 100px;
+	width: 450px;
+	margin-left: 100px;
+}
+
+.middle-img {
+	margin-left: 200px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
