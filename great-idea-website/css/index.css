@@ -66,7 +66,6 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 .navbar {
-	border: 1px solid red;
 	display: inline-block;
 	position: fixed;
 	top: 0;
@@ -74,42 +73,34 @@ h1, h2, h3, h4, h5 {
 	background-color: yellow;
 }
 
-/* nav {
+nav {
 	display: inline-block;
 	text-align: center;
-	border: 1px solid black;
 	width: 800px;
 	height: 50px;
-} */
+}
 
 a {
 	display: inline-block;
-	border: 1px solid black;
 	height: 50px;
-	width: 70px;
+	width: 80px;
 	padding-top: 15px;
-	margin: 10px 40px 30px ;
 	text-align: center;
 	color: slategrey;
 }
 
 .logo {
 	display: inline-block;
-	border: 1px solid red;
 	vertical-align: middle;
-	margin-left: 900px;
-	
 
 }
 
 header {
-	border: 1px solid black;
 	margin-top: 25px;
 	margin-bottom: 50px;
 }
 
 header h1 {
-	border: 1px solid black;
 	display: inline-block;
 	height: 350px;
 	width: 450px;
@@ -120,10 +111,9 @@ header h1 {
 }
 
 .header-img {
-	border: 1px solid black;
 	display: inline-block;
-	margin-top: 10px;
 	margin-left: 100px;
+	padding-top: 50px;
 }
 
 button {
@@ -141,64 +131,55 @@ p {
 
 .TopSection {
 	display: block;
-	border: 1px solid black;
+	margin-top: 25px;
 }
 
 .topsection-left {
-	border: 1px solid red;
 	display: inline-block;
 	height: 100px;
 	width: 450px;
-	margin-left: 100px;
+	margin-left: 50px;
 }
 
 .topsection-right {
-	border: 1px solid red;
 	display: inline-block;
 	height: 100px;
 	width: 450px;
-	margin-left: 100px;
+	margin-left: 50px;
 }
 
 .middle-img {
-	margin-left: 200px;
+	margin-left: 100px;
 	margin-top: 25px;
 	margin-bottom: 25px;
 }
 
-.BottomSection {
-	border: 1px solid black;
-}
-
 .BottomSection-Left {
-	border: 1px solid red;
 	display: inline-block;
 	height: 150px;
 	width: 300px;
-	margin-left: 100px;
+	margin-left: 50px;
 }
 
 .BottomSection-Middle {
-	border: 1px solid red;
 	display: inline-block;
 	height: 150px;
 	width: 300px;
-	margin: 0 50px;
+	margin: 0 25px;
 }
 
 .BottomSection-Right {
-	border: 1px solid red;
 	display: inline-block;
 	height: 150px;
 	width: 300px;
 }
 
 .contact {
-	border: 1px solid red;
 	display: block;
 	width: 200px;
 	height: 150px;
-	margin-left: 100px;
+	margin-left: 50px;
+	margin-top: 25px;
 }
 
 .contact p {
@@ -206,7 +187,6 @@ p {
 }
 
 footer {
-	border: 1px solid black;
 	text-align: center;
 	margin: 50px;
 }
